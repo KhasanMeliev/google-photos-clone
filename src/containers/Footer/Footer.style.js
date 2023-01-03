@@ -21,14 +21,18 @@ export const FooterWrapper = styled.div`
     li {
       list-style: none;
       font-size: 16px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
       cursor: pointer;
 
+      a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: inherit;
+        text-decoration: none;
+      }
       svg {
-        font-size: 22px;
+        font-size: 25px;
       }
     }
   }
