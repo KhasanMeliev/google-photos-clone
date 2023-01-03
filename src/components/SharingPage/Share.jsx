@@ -1,5 +1,5 @@
 import React from "react";
-import { Buttons, ButtonWrapper, Wrapper } from "./Share.style";
+import { Buttons, Wrapper } from "./Share.style";
 import { MdPhotoAlbum } from "react-icons/md";
 import { GiDirectionSigns } from "react-icons/gi";
 

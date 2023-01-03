@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Photos from "./components/Photos/Photos";
 import Search from "./components/Search/Search";
@@ -9,9 +10,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Photos/> */}
-      {/* <Search /> */}
-      <Share />
+      <Routes>
+        <Route path="/" element={<Photos />}>
+          <Route index element={<Photos />} />
+          <Route path="search" element={<Search />} />
+          <Route path="share" element={<Share />} />
+        </Route>
+      </Routes>
       <Footer />
     </div>
   );
