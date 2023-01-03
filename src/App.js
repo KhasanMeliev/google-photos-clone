@@ -1,6 +1,7 @@
 import "./App.css";
 import Photos from "./components/Photos/Photos";
 import Search from "./components/Search/Search";
+import Share from "./components/SharingPage/Share";
 import Footer from "./containers/Footer/Footer";
 import Header from "./containers/Header/Header";
 
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
       <Header />
       {/* <Photos/> */}
-      <Search />
+      {/* <Search /> */}
+      <Share />
       <Footer />
     </div>
   );

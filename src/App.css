@@ -8,3 +8,7 @@ body{
   position: absolute;
   background-color: white;
 }
+
+*::-webkit-scrollbar{
+  display: none;
+}

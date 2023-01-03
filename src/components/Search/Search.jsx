@@ -18,7 +18,7 @@ import { IoMdTime } from "react-icons/io";
 import { CgScreenShot, CgPhotoscan } from "react-icons/cg";
 import { TbCameraSelfie, TbRotate360 } from "react-icons/tb";
 import { MdSlowMotionVideo } from "react-icons/md";
-import { StarIcon } from "@mantine/core";
+import { BsStars } from "react-icons/bs";
 
 const Search = () => {
   return (
@@ -149,34 +149,49 @@ const Search = () => {
 
         <Lists>
           <ul>
-            Your Activity
+            <h1>Your Activity</h1>
             <li>
               <AiOutlineStar />
               Favorites
             </li>
+            <hr />
             <li>
               <IoMdTime /> Recently Added
             </li>
-            Categories
+            <hr />
+            <h1>Categories</h1>
             <li>
               <CgScreenShot /> Screenshots
             </li>
+            <hr />
             <li>
               <TbCameraSelfie /> Selfies
             </li>
+            <hr />
             <li>
               <MdSlowMotionVideo /> Videos
             </li>
+            <hr />
             <li>
               <TbRotate360 /> 360 Photos & Videos
             </li>
+            <hr />
             <li>
               <CgPhotoscan /> PhotoScan
             </li>
+            <hr />
             <li>
               <AiOutlinePlayCircle /> Motion Photos
             </li>
+            <h1>Creations</h1>
+            <li>
+              <BsStars /> Saved sreations
+            </li>
           </ul>
+          <button>
+            <h3>Help improve Google Photos</h3>
+            <p>Take a minute to review photos now</p>
+          </button>
         </Lists>
       </SearchWrapper>
     </Wrapper>

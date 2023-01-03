@@ -12,7 +12,6 @@ export const SearchWrapper = styled.div`
 `;
 export const InputWrapper = styled.div`
   width: 100%;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,10 +46,12 @@ export const Texts = styled.div`
     padding: 0px 5px;
     margin-bottom: 5px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
 
     &:nth-child(2) {
       color: blue;
+      cursor: pointer;
+      margin-bottom: 5px;
     }
   }
 `;
@@ -76,7 +77,7 @@ export const Image = styled.img`
 
 export const Places = styled.div`
   width: 100%;
-  height: 300px;
+  height: 150px;
   display: flex;
   flex-direction: column;
 `;
@@ -106,18 +107,60 @@ export const PlaceBox = styled.div`
 
 export const Lists = styled.div`
   width: 100%;
-  height: 300px;
-  background-color: blue;
+  height: 720px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-left: 5px;
+
+  h1 {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  hr {
+    width: 220px;
+    margin-left: 30px;
+  }
 
   ul {
     padding: 0px 15px;
     display: flex;
     flex-direction: column;
     gap: 5px;
+    svg {
+      font-size: 20px;
+      margin-right: 8px;
+      cursor: pointer;
+    }
     li {
       list-style: none;
+      font-size: 18px;
+      width: 100%;
+      height: 40px;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  button {
+    width: 85%;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+    background-color: inherit;
+    border: 2px solid #181818;
+    color: #181818;
+    margin-left: 5px;
+
+    h3 {
+      font-weight: 550;
+    }
+    p {
+      margin-top: 3px;
     }
   }
 `;
