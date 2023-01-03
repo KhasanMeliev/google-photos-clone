@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      {/* <Photos/> */}
       <Search />
       <Footer />
     </div>
