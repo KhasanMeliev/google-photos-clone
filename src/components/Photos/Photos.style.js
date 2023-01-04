@@ -13,19 +13,14 @@ export const PhotosWrapper = styled.div`
 export const SliderWrapper = styled.div`
   width: 100%;
   height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  pointer-events: none;
 `;
 
 export const Box = styled.div`
-  width: 130px;
+  width: 120px;
   height: 180px;
   background-color: #181818;
   margin: 10px;
   border-radius: 10px;
-
   display: flex;
   align-items: flex-end;
 
@@ -43,9 +38,8 @@ export const ImagesWrapper = styled.div`
   padding: 0px 15px;
   display: flex;
   flex-direction: column;
-  h1{
+  h1 {
     margin-top: 15px;
-    
   }
 `;
 
