@@ -7,17 +7,16 @@ import {
   SliderWrapper,
 } from "./Photos.style";
 import { Carousel } from "@mantine/carousel";
-import { images } from "../SearchPageComponents/PeopleImages/Images";
+import { images } from "../../components/SearchPageComponents/PeopleImages/Images";
+import { placesImages } from "../../components/SearchPageComponents/Places/Places";
 
 const sliderTexts = [
-  { text: "Featured Wednesday" },
-  { text: "Featured Wednesday" },
-  { text: "Featured Wednesday" },
-  { text: "Featured Wednesday" },
-  { text: "Featured Wednesday" },
-  { text: "Featured Wednesday" },
-  { text: "Featured Wednesday" },
-  { text: "Featured Wednesday" },
+  { text: "Revisit the Moments" },
+  { text: "Spotlight on a day" },
+  { text: "New animation" },
+  { text: "A few days ago" },
+  { text: "Remember this day?" },
+  { text: "Look back to 2020" },
 ];
 const Photos = () => {
   return (
@@ -50,7 +49,7 @@ const Photos = () => {
         </Images>
         <h1>Yesterday</h1>
         <Images>
-          {images.map(({ img, text }, index) => (
+          {placesImages.map(({ img, text }, index) => (
             <img src={img} alt={text} key={index + 1} />
           ))}
         </Images>

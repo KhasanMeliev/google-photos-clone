@@ -15,13 +15,13 @@ import { CgScreenShot, CgPhotoscan } from "react-icons/cg";
 import { TbCameraSelfie, TbRotate360 } from "react-icons/tb";
 import { MdSlowMotionVideo } from "react-icons/md";
 import { BsStars } from "react-icons/bs";
-import Category from "../components/SearchPageComponents/Category/Category";
+import Category from "../../components/SearchPageComponents/Category/Category";
 import Images, {
   images,
-} from "../components/SearchPageComponents/PeopleImages/Images";
+} from "../../components/SearchPageComponents/PeopleImages/Images";
 import Places, {
   placesImages,
-} from "../components/SearchPageComponents/Places/Places";
+} from "../../components/SearchPageComponents/Places/Places";
 
 const categories = [
   { Icon: CgScreenShot, title: "Screenshots" },
@@ -48,11 +48,11 @@ const Search = () => {
         </InputWrapper>
 
         <People>
-          <Images title="People & Pets" images={images} />
+          <Images title="People & Pets" images={placesImages} />
         </People>
 
         <PlacesWrapper>
-          <Places title="Places" images={placesImages} />
+          <Places title="Places" images={images} />
         </PlacesWrapper>
 
         <Lists>

@@ -32,10 +32,14 @@ export const Buttons = styled.div`
   }
 `;
 
-export const Places = styled.div`
+export const Albums = styled.div`
   width: 100%;
   height: 200px;
   margin-top: 20px;
+
+  p {
+    font-size: 15px;
+  }
 `;
 
 export const Texts = styled.div`
@@ -49,7 +53,7 @@ export const Texts = styled.div`
     margin: 0;
     padding: 0px 5px;
     margin-bottom: 5px;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 18px;
 
     &:nth-child(2) {
@@ -60,19 +64,14 @@ export const Texts = styled.div`
   }
 `;
 export const Box = styled.div`
-  width: 70px;
-  height: 75px;
-  color: black;
-
-  p {
-    font-weight: 500;
-  }
-`;
-export const Image = styled.img`
-  width: 55px;
-  height: 55px;
-  background-color: blue;
-  border-radius: 50%;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfmwFWkd7HSMq9jOp8KDaPnoyS7ScKag7ceQ&usqp=CAU");
-  background-size: cover;
+  width: 90px;
+  height: 90px;
+  color: white;
+  background-color: #181818;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 30px;
+  margin-left: 10px;
 `;

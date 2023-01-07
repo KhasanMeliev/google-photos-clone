@@ -2,16 +2,18 @@ import React from "react";
 import { Carousel } from "@mantine/carousel";
 import { Image, PlaceBox, Texts } from "./styles";
 
-import one from "../../../ImagesFile/1.jfif";
-import two from "../../../ImagesFile/2.jfif";
-import three from "../../../ImagesFile/3.jpg";
-import four from "../../../ImagesFile/4.jfif";
-import five from "../../../ImagesFile/5.jfif";
-import six from "../../../ImagesFile/6.jpg";
-import seven from "../../../ImagesFile/7.jfif";
-import eight from "../../../ImagesFile/8.jfif";
-import nine from "../../../ImagesFile/9.jfif";
-import ten from "../../../ImagesFile/10.webp";
+import one from "../../../ImagesFile/Places/1.jpg";
+import two from "../../../ImagesFile/Places/2.jfif";
+import three from "../../../ImagesFile/Places/3.jpeg";
+import four from "../../../ImagesFile/Places/4.jpg";
+import five from "../../../ImagesFile/Places/5.jfif";
+import six from "../../../ImagesFile/Places/6.jfif";
+import seven from "../../../ImagesFile/Places/7.webp";
+import eight from "../../../ImagesFile/Places/8.webp";
+import nine from "../../../ImagesFile/Places/9.jfif";
+import ten from "../../../ImagesFile/Places/10.jpg";
+
+import { Link } from "react-router-dom";
 
 export const placesImages = [
   { img: one, text: "khasan" },
@@ -31,7 +33,12 @@ const Places = () => {
     <>
       <Texts>
         <h3>Places</h3>
-        <h3>View all</h3>
+        <Link
+          to="/viewPlaces"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
+          <h3>View all</h3>
+        </Link>
       </Texts>
 
       <Carousel

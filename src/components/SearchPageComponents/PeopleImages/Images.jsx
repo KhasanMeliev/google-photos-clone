@@ -1,23 +1,25 @@
 import React from "react";
 import { Carousel } from "@mantine/carousel";
 import { Box, Image, Texts } from "./styles";
-import one from "../../../ImagesFile/1.jfif";
-import two from "../../../ImagesFile/2.jfif";
-import three from "../../../ImagesFile/3.jpg";
-import four from "../../../ImagesFile/4.jfif";
-import five from "../../../ImagesFile/5.jfif";
-import six from "../../../ImagesFile/6.jpg";
-import seven from "../../../ImagesFile/7.jfif";
-import eight from "../../../ImagesFile/8.jfif";
-import nine from "../../../ImagesFile/9.jfif";
-import ten from "../../../ImagesFile/10.webp";
+import { Link } from "react-router-dom";
+
+import one from "../../../ImagesFile/People/1.jfif";
+import two from "../../../ImagesFile/People/2.jfif";
+import three from "../../../ImagesFile/People/3.jpg";
+import four from "../../../ImagesFile/People/4.jfif";
+import five from "../../../ImagesFile/People/5.jfif";
+import six from "../../../ImagesFile/People/6.jpg";
+import seven from "../../../ImagesFile/People/7.jfif";
+import eight from "../../../ImagesFile/People/8.jfif";
+import nine from "../../../ImagesFile/People/9.jfif";
+import ten from "../../../ImagesFile/People/10.webp";
 
 export const images = [
   { img: one, text: "khasan" },
-  { img: two, text: "khasan" },
-  { img: three, text: "khasan" },
-  { img: four, text: "khasan" },
-  { img: five, text: "khasan" },
+  { img: two, text: "alex" },
+  { img: three, text: "tom" },
+  { img: four, text: "jony" },
+  { img: five, text: "jack" },
   { img: six, text: "khasan" },
   { img: seven, text: "khasan" },
   { img: eight, text: "khasan" },
@@ -30,7 +32,12 @@ const Images = () => {
     <>
       <Texts>
         <h3>People & Pets</h3>
-        <h3>View all</h3>
+        <Link
+          to="/viewPeople"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
+          <h3>View all</h3>
+        </Link>
       </Texts>
       <Carousel
         slideSize="1%"

@@ -31,18 +31,15 @@ export const Input = styled.input`
 
 export const People = styled.div`
   width: 100%;
-  height: 150px;
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
 `;
 
 export const PlacesWrapper = styled.div`
   width: 100%;
-  height: 150px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-top: 30px;
 `;
 
 export const Lists = styled.div`

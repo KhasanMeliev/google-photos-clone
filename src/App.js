@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Photos from "./components/Photos/Photos";
-import Share from "./components/SharingPage/Share";
+import Photos from "./pages/Photos/Photos";
+import Share from "./pages/SharingPage/Share";
 import Header from "./containers/Header/Header";
 import Footer from "./containers/Footer/Footer";
-import Search from "./pages/Search";
+import Search from "./pages/Search/Search";
+import View from "./components/SearchPageComponents/PeopleImages/ViewImages/View";
+import ViewPlace from "./components/SearchPageComponents/Places/ViewPlaces/ViewPlace";
 
 function App() {
   return (
@@ -16,7 +18,10 @@ function App() {
         <Route path="/photos" element={<Photos />} />
         <Route path="/search" element={<Search />} />
         <Route path="/share" element={<Share />} />
+        <Route path="/viewPeople" element={<View />} />
+        <Route path="/viewPlaces" element={<ViewPlace />} />
       </Routes>
+
       <Footer />
     </div>
   );

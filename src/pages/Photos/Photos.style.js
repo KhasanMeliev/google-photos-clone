@@ -35,7 +35,6 @@ export const Box = styled.div`
 export const ImagesWrapper = styled.div`
   width: 100%;
   height: 200px;
-  padding: 0px 15px;
   display: flex;
   flex-direction: column;
   h1 {
