@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 100%;
   height: 80vh;
-  font-family: cursive;
 `;
 
 export const SearchWrapper = styled.div`
@@ -32,18 +31,15 @@ export const Input = styled.input`
 export const People = styled.div`
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  margin-top: 15px;
 `;
 
 export const PlacesWrapper = styled.div`
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 15px;
 `;
 
 export const Lists = styled.div`

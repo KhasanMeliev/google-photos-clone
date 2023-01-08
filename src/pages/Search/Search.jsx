@@ -16,12 +16,10 @@ import { TbCameraSelfie, TbRotate360 } from "react-icons/tb";
 import { MdSlowMotionVideo } from "react-icons/md";
 import { BsStars } from "react-icons/bs";
 import Category from "../../components/SearchPageComponents/Category/Category";
-import Images, {
-  images,
-} from "../../components/SearchPageComponents/PeopleImages/Images";
-import Places, {
-  placesImages,
-} from "../../components/SearchPageComponents/Places/Places";
+import { peopleImages } from "../../mock/peopleArray";
+import { placesImages } from "../../mock/placesArray";
+import Images from "../../components/SearchPageComponents/PeopleImages/Images";
+import Places from "../../components/SearchPageComponents/Places/Places";
 
 const categories = [
   { Icon: CgScreenShot, title: "Screenshots" },
@@ -48,11 +46,11 @@ const Search = () => {
         </InputWrapper>
 
         <People>
-          <Images title="People & Pets" images={placesImages} />
+          <Images title="People & Pets" images={peopleImages} />
         </People>
 
         <PlacesWrapper>
-          <Places title="Places" images={images} />
+          <Places title="Places" images={placesImages} />
         </PlacesWrapper>
 
         <Lists>

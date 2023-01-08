@@ -4,7 +4,7 @@ import { Wrapper, Images, Box, ImagesWrapper } from "./styles";
 import { MoreVert } from "@mui/icons-material";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import { Link } from "react-router-dom";
-import { placesImages } from "../Places";
+import { placesImages } from "../../../../mock/placesArray";
 
 const ViewPlace = () => {
   return (

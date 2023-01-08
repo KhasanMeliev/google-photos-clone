@@ -3,8 +3,8 @@ import { FormControl, InputLabel, OutlinedInput } from "@mui/material";
 import { Wrapper, Images, Box, ImagesWrapper } from "./styles";
 import { MoreVert } from "@mui/icons-material";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
-import { images } from "../Images";
 import { Link } from "react-router-dom";
+import { peopleImages } from "../../../../mock/peopleArray";
 
 const View = () => {
   return (
@@ -26,7 +26,7 @@ const View = () => {
           />
         </FormControl>
         <Images>
-          {images.map(({ img, text }, index) => (
+          {peopleImages.map(({ img, text }, index) => (
             <Box key={index + 1}>
               <img src={img} alt={text} />
               <p>{text}</p>

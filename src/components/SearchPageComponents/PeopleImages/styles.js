@@ -20,6 +20,7 @@ export const Texts = styled.div`
     }
   }
 `;
+
 export const Box = styled.div`
   width: 70px;
   height: 75px;
@@ -31,6 +32,7 @@ export const Box = styled.div`
     font-weight: 500;
   }
 `;
+
 export const Image = styled.img`
   width: 55px;
   height: 55px;
@@ -38,4 +40,5 @@ export const Image = styled.img`
   border-radius: 50%;
   background-size: cover;
 `;
+
 export const Lists = styled.div``;

@@ -8,6 +8,7 @@ import Footer from "./containers/Footer/Footer";
 import Search from "./pages/Search/Search";
 import View from "./components/SearchPageComponents/PeopleImages/ViewImages/View";
 import ViewPlace from "./components/SearchPageComponents/Places/ViewPlaces/ViewPlace";
+import Library from "./pages/Library/Library";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/photos" element={<Photos />} />
         <Route path="/search" element={<Search />} />
         <Route path="/share" element={<Share />} />
+        <Route path="/library" element={<Library />} />
         <Route path="/viewPeople" element={<View />} />
         <Route path="/viewPlaces" element={<ViewPlace />} />
       </Routes>

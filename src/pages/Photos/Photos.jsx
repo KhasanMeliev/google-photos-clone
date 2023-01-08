@@ -7,17 +7,10 @@ import {
   SliderWrapper,
 } from "./Photos.style";
 import { Carousel } from "@mantine/carousel";
-import { images } from "../../components/SearchPageComponents/PeopleImages/Images";
-import { placesImages } from "../../components/SearchPageComponents/Places/Places";
+import { sliderTextsHome } from "../../mock/sliderTextsHome";
+import { peopleImages } from "../../mock/peopleArray";
+import { placesImages } from "../../mock/placesArray";
 
-const sliderTexts = [
-  { text: "Revisit the Moments" },
-  { text: "Spotlight on a day" },
-  { text: "New animation" },
-  { text: "A few days ago" },
-  { text: "Remember this day?" },
-  { text: "Look back to 2020" },
-];
 const Photos = () => {
   return (
     <PhotosWrapper>
@@ -30,7 +23,7 @@ const Photos = () => {
           dragFree
           align="start"
         >
-          {sliderTexts.map(({ text }, index) => (
+          {sliderTextsHome.map(({ text }, index) => (
             <Carousel.Slide key={index + 1}>
               <Box>
                 <p>{text}</p>
@@ -43,7 +36,7 @@ const Photos = () => {
       <ImagesWrapper>
         <h1>Today</h1>
         <Images>
-          {images.map(({ img, text }, index) => (
+          {peopleImages.map(({ img, text }, index) => (
             <img src={img} alt={text} key={index + 1} />
           ))}
         </Images>
