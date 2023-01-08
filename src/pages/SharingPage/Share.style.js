@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   }
 `;
 
-export const Buttons = styled.div`
+export const ButtonWrapper = styled.div`
   width: 100%;
   height: 50px;
   display: flex;
@@ -22,13 +22,14 @@ export const Buttons = styled.div`
     height: 35px;
     border-radius: 100px;
     border: none;
-    background-color: #42b0f5;
-    color: #181818;
+    background-color: #181818;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 3px;
     font-weight: 500;
+    font-size: 13px;
   }
 `;
 
@@ -39,6 +40,7 @@ export const Albums = styled.div`
 
   p {
     font-size: 15px;
+    margin-left: 10px;
   }
 `;
 
@@ -74,4 +76,22 @@ export const Box = styled.div`
   border-radius: 8px;
   font-size: 30px;
   margin-left: 10px;
+`;
+
+export const Down = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  button {
+    width: 90%;
+    height: 100px;
+    display: flex;
+
+    img{
+      width: 50px;
+    }
+  }
 `;

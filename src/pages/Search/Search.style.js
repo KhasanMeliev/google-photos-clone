@@ -32,12 +32,16 @@ export const Input = styled.input`
 export const People = styled.div`
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
 `;
 
 export const PlacesWrapper = styled.div`
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   margin-top: 30px;
 `;

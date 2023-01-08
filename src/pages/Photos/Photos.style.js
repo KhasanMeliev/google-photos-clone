@@ -37,6 +37,7 @@ export const ImagesWrapper = styled.div`
   height: 200px;
   display: flex;
   flex-direction: column;
+
   h1 {
     margin-top: 15px;
   }

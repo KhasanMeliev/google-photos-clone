@@ -1,8 +1,16 @@
 import React from "react";
-import { Albums, Box, Buttons, Texts, Wrapper } from "./Share.style";
+import {
+  Albums,
+  Box,
+  ButtonWrapper,
+  Down,
+  Texts,
+  Wrapper,
+} from "./Share.style";
 import { MdPhotoAlbum } from "react-icons/md";
 import { GiDirectionSigns } from "react-icons/gi";
 import { Carousel } from "@mantine/carousel";
+import { Button } from "@mantine/core";
 
 const albums = [
   { text: "Maktab" },
@@ -15,16 +23,16 @@ const albums = [
 const Share = () => {
   return (
     <Wrapper>
-      <Buttons>
-        <button>
+      <ButtonWrapper>
+        <Button>
           <MdPhotoAlbum />
           Create shared album
-        </button>
-        <button>
+        </Button>
+        <Button>
           <GiDirectionSigns />
           Share with partner
-        </button>
-      </Buttons>
+        </Button>
+      </ButtonWrapper>
 
       <Albums>
         <Texts>
