@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Albums,
-  Box,
-  ButtonWrapper,
-  Down,
-  Texts,
-  Wrapper,
-} from "./Share.style";
+import { Albums, Box, ButtonWrapper, Texts, Wrapper } from "./Share.style";
 import { MdPhotoAlbum } from "react-icons/md";
 import { GiDirectionSigns } from "react-icons/gi";
 import { Carousel } from "@mantine/carousel";
