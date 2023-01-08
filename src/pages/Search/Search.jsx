@@ -59,6 +59,7 @@ const Search = () => {
           <Category title="Your Activity" lists={yourActivity} />
           <Category title="Categories" lists={categories} />
           <Category title="Creations" lists={creations} />
+
           <button>
             <h3>Help improve Google Photos</h3>
             <p>Take a minute to review photos now</p>
