@@ -4,6 +4,8 @@ export const PhotosWrapper = styled.div`
   width: 100%;
   height: 78vh;
   overflow-y: scroll;
+  background-color: #16191e;
+  color: white;
 
   &::-webkit-scrollbar {
     display: none;
@@ -18,7 +20,7 @@ export const SliderWrapper = styled.div`
 export const Box = styled.div`
   width: 120px;
   height: 180px;
-  background-color: #181818;
+  background-color: #18f08b;
   margin: 10px;
   border-radius: 10px;
   display: flex;

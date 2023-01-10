@@ -25,12 +25,12 @@ export const Images = styled.div`
 `;
 
 export const Box = styled.div`
-  width: 100px;
-  height: 100px;
+   width: 90px;
+  height: 90px;
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
 
   p {

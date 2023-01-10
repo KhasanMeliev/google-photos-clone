@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: 100%;
-  background-color: white;
+  background-color: #16191e;
   overflow: scroll;
+  color: white;
 `;
 
 export const ButtonsWrapper = styled.div`
@@ -59,7 +60,7 @@ export const Box = styled.div`
   align-items: center;
   flex-direction: column;
   border-color: blue;
-  
+
   p {
     font-weight: 500;
   }

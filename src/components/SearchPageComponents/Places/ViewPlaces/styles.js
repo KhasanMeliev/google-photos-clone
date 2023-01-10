@@ -20,17 +20,17 @@ export const Images = styled.div`
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   padding: 0px 10px;
 `;
 
 export const Box = styled.div`
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
 
   p {

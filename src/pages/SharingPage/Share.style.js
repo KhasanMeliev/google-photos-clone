@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 100%;
   overflow: scroll;
+  background-color: #16191e;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
 
   &::-webkit-scrollbar {
     display: none;
@@ -22,7 +26,6 @@ export const ButtonWrapper = styled.div`
     height: 35px;
     border-radius: 100px;
     border: none;
-    background-color: #181818;
     color: #fff;
     display: flex;
     align-items: center;
@@ -69,7 +72,7 @@ export const Box = styled.div`
   width: 90px;
   height: 90px;
   color: white;
-  background-color: #181818;
+  background-color: #18f08b;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const PlaceBox = styled.div`
-  width: 110px;
-  height: 120px;
+  width: 90px;
+  height: 100px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -18,8 +18,9 @@ export const PlaceBox = styled.div`
   p {
     margin-top: 80px;
     position: absolute;
-    color: white;
+    color: #16191e;
     font-size: 25px;
+    font-weight: bold;
   }
 `;
 

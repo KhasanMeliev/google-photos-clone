@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: 100%;
+  background-color: #16191e;
+  color: white;
 `;
 
 export const SearchWrapper = styled.div`
