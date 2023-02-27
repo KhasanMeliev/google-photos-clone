@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: 100%;
+  height: 80vh;
   overflow: scroll;
   background-color: #16191e;
   color: white;
@@ -62,7 +63,7 @@ export const Texts = styled.div`
     font-size: 18px;
 
     &:nth-child(2) {
-      color: blue;
+      color: white;
       cursor: pointer;
       margin-bottom: 5px;
     }

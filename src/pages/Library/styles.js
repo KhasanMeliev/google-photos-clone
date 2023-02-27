@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
   background-color: #16191e;
   overflow: scroll;
   color: white;
+  height: 80vh;
 `;
 
 export const ButtonsWrapper = styled.div`

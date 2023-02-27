@@ -49,11 +49,13 @@ export const Lists = styled.div`
     display: flex;
     flex-direction: column;
     gap: 5px;
+
     svg {
       font-size: 20px;
       margin-right: 8px;
       cursor: pointer;
     }
+    
     li {
       list-style: none;
       font-size: 18px;
@@ -78,6 +80,7 @@ export const Lists = styled.div`
     h3 {
       font-weight: 550;
     }
+
     p {
       margin-top: 3px;
     }
@@ -91,6 +94,7 @@ export const Image = styled.img`
   border-radius: 50%;
   background-size: cover;
 `;
+
 export const Texts = styled.div`
   width: 100%;
   display: flex;
